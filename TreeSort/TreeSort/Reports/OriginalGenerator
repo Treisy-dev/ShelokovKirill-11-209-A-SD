@@ -1,0 +1,62 @@
+namespace TreeSort;
+
+public class TimingsGenerator
+{
+    //private List<string> time = new();
+
+    public void DoTreeSort()
+    {
+        //List<string> time = new();
+        List<int> Items = new();
+        List<int> Sorted = new();
+        string[] files = Directory.GetFiles(@"/Users/kirillshelokov/RiderProjects/TreeSort/TreeSort/TestData");
+        foreach (var file in files)
+        {
+            //var watch = new Stopwatch();
+            
+            StreamReader sr = new StreamReader(file);
+            int element;
+            while (!sr.EndOfStream)
+            {
+                element = int.Parse(sr.ReadLine());
+                Items.Add(element);
+            }
+            sr.Close();
+            
+            Sorted.AddRange(Items.OrderBy(x => x).ToArray());
+            var tree = new TreeSort<int>();
+            
+            //watch.Start();
+            var result = tree.MakeSort(Items);
+            //watch.Stop();
+            
+
+            /*StringBuilder sb = new StringBuilder();
+            sb.Append(watch.ElapsedMilliseconds);
+            sb.Append("мс занял тест для файла ");
+            sb.Append(file);
+            time.Add(sb.ToString());
+            sb.Clear();*/
+            
+            
+            Items.Clear();
+            Sorted.Clear();
+        }
+        
+    }
+
+    /*private void CreateReport()
+    {
+        StreamWriter sw =
+            File.CreateText(@"/Users/kirillshelokov/RiderProjects/TreeSort/TreeSort/TestData/TestTimings0000.txt");
+        {
+            foreach (var timing in time)
+            {
+                sw.WriteLine(timing);
+            }
+        }
+        
+        sw.Close();
+    }*/
+    
+}

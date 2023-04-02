@@ -1,0 +1,15 @@
+/Users/kirillshelokov/RiderProjects/TreeSort/TreeSort/bin/Debug/net7.0/TreeSort
+/Users/kirillshelokov/RiderProjects/TreeSort/TreeSort/bin/Debug/net7.0/TreeSort.deps.json
+/Users/kirillshelokov/RiderProjects/TreeSort/TreeSort/bin/Debug/net7.0/TreeSort.runtimeconfig.json
+/Users/kirillshelokov/RiderProjects/TreeSort/TreeSort/bin/Debug/net7.0/TreeSort.dll
+/Users/kirillshelokov/RiderProjects/TreeSort/TreeSort/bin/Debug/net7.0/TreeSort.pdb
+/Users/kirillshelokov/RiderProjects/TreeSort/TreeSort/obj/Debug/net7.0/TreeSort.csproj.AssemblyReference.cache
+/Users/kirillshelokov/RiderProjects/TreeSort/TreeSort/obj/Debug/net7.0/TreeSort.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kirillshelokov/RiderProjects/TreeSort/TreeSort/obj/Debug/net7.0/TreeSort.AssemblyInfoInputs.cache
+/Users/kirillshelokov/RiderProjects/TreeSort/TreeSort/obj/Debug/net7.0/TreeSort.AssemblyInfo.cs
+/Users/kirillshelokov/RiderProjects/TreeSort/TreeSort/obj/Debug/net7.0/TreeSort.csproj.CoreCompileInputs.cache
+/Users/kirillshelokov/RiderProjects/TreeSort/TreeSort/obj/Debug/net7.0/TreeSort.dll
+/Users/kirillshelokov/RiderProjects/TreeSort/TreeSort/obj/Debug/net7.0/refint/TreeSort.dll
+/Users/kirillshelokov/RiderProjects/TreeSort/TreeSort/obj/Debug/net7.0/TreeSort.pdb
+/Users/kirillshelokov/RiderProjects/TreeSort/TreeSort/obj/Debug/net7.0/TreeSort.genruntimeconfig.cache
+/Users/kirillshelokov/RiderProjects/TreeSort/TreeSort/obj/Debug/net7.0/ref/TreeSort.dll
